@@ -1,7 +1,10 @@
 body {
   margin: 0;
-  padding: 0;
+}
+
+.page {
   max-width: max-content;
+  margin: auto;
 }
 
 .header {
