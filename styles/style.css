@@ -1,7 +1,9 @@
 body {
+  margin: 0;
+  padding: 0;
   max-width: max-content;
   margin: auto;
-  }
+}
 
 .header {
   height: 293px;
@@ -31,14 +33,6 @@ nav {
   grid-column-start: 5;
   grid-column-end: 6;
   justify-self: end;
-}
-
-.header__links-list {
-  display: flex;
-  flex-flow: row;
-}
-
-.address {
   color: #000;
   font-family: Raleway;
   font-size: 18px;
@@ -53,6 +47,8 @@ address a {
 }
 
 .header__links-list {
+  display: flex;
+  flex-flow: row;
   list-style: circle;
   display: flex;
   gap: 32px;
@@ -174,7 +170,7 @@ address a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 
 .lots__heading {
@@ -341,15 +337,10 @@ height: 487px;
   justify-content: space-between;
 }
 
-.footer__social-list {
-  width: 240px;
-}
-
 .footer__menu-list {
   list-style: none;
   text-align: center;
   color: #000;
-  text-align: center;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -369,6 +360,7 @@ height: 487px;
   display: flex;
   justify-content: space-between;
   list-style: none;
+  width: 240px;
 }
 
 .footer__social-list img {
