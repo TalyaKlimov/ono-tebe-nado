@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .page {
   width: 100vw;
   margin: auto;
@@ -32,7 +36,6 @@
 }
 
 address a {
-  text-decoration: none;
   border-bottom: 1px solid;
 }
 
@@ -165,14 +168,16 @@ address a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  margin: 0px 50px;
+  padding: 0px 50px;
+  margin: 0 auto;
 }
 
 .lots__cards-list-item {
   color: #FFF;
+  flex-grow: 1;
 }
 
 .card {
@@ -245,6 +250,8 @@ address a {
   flex-direction: row;
   justify-content: space-between;
   gap: 25px;
+  margin: 0px auto;
+  flex-wrap: wrap;
 }
 
 .about__logo {
@@ -255,7 +262,7 @@ address a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 95px;
+  margin: 0px auto;
 }
 
 .about__logo-image {
